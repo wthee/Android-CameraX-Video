@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SignInSystem</string>
+    <string name="open_camera">打开相机</string>
+    <string name="close_camera">关闭相机</string>
+    <string name="record_start">点击录制</string>
+    <string name="record_stop">结束录制</string>
+</resources>
