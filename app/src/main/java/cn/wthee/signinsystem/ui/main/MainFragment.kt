@@ -128,7 +128,7 @@ class MainFragment : Fragment() {
 
     @SuppressLint("RestrictedApi")
     private fun startRecord() {
-        val saveFile = File(activity?.externalMediaDirs?.first(),"${System.currentTimeMillis()}.mp4");
+        val saveFile = File(activity?.externalMediaDirs?.first(),"${System.currentTimeMillis()}.mp4")
         //录制计时
         var startTime = 0
         val task = object :TimerTask(){
